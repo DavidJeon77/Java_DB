@@ -1,0 +1,10 @@
+person class
+
+주민등록번호, 이름을 입력 받아서 person 객체를 만든다.
+
+주민등록번호	:	private final String JUMIN_NUMBER
+이름			:	String name
+
+getter / setter 작성
+
+printPersonInfo 작성 => 사람의 이름과 주민등록번호 출력

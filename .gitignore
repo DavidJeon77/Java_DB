@@ -1,0 +1,10 @@
+/target/
+.settings/
+.classpath
+.jar
+*.class
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+.project
+.DS_Store

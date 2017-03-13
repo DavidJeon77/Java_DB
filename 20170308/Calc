@@ -1,0 +1,31 @@
+계산기
+
+int num1;
+int num2;
+String symbol;
+int result;
+
+
+사용자에게 값 2개, 연산자 하나 입력 받기
+
+
+
+계산 전 특수 알고리즘 수행
+
+~~~~~ void deAlgorithm(){
+system.out.println("알고리즘 수행")
+}
+
+
+
+연산자 구분 후 계산
+
+
+
+결과 값 출력
+예)	10+20 연산하면
+	알고리즘 수행
+	결과 : 30
+	
+	
+	

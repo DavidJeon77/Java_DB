@@ -1,0 +1,111 @@
+4조
+
+
+-----interface 메소드-----
+
+IStarCraft.java
+
+void buildingCalc(int resource);
+-> 자원을 가지고 건설할 수 있는 건물
+ex) 1000원의 자원으로는 해처리 3개 레어 2개를 지을 수 있다.
+
+
+void unitCalc(int resource);
+-> 자원을 가지고 뽑을 수 있는 유닛
+ex) 1000원의 자원으로는 저글링 20마리 또는 히드라 14마리 또는 뮤탈을 10마리 뽑을 수 있다.
+
+
+void printBuildingInfo();
+-> 해당 종족의 건물 정보
+
+void printUnitInfo();
+-> 해당 종족의 유닛 정보
+
+
+------------------------------
+
+
+------------------------------
+Starcraft.java
+-인터페이스객체 호출
+------------------------------
+
+------------------------------
+starcraftMain.java
+-메인
+------------------------------
+
+------------------------------
+-저그-
+Zerg.java
+
+//각 생산물의 최대치를 담을 변수
+int result1 = 0;
+int result2 = 0;
+int result3 = 0;
+
+건물
+1. 해처리 - final static int HATCHERY = 300; 
+2. 레어	- final static int LARE = 400;
+
+유닛
+1. 저글링 - final static int ZERGLING = 50;
+2. 히드라 - final static int HYDRA = 75;
+3. 뮤탈 - final static int MUTAL = 100;
+-----------------------------------
+
+------------------------------
+-테란-
+Terran.java
+
+//각 생산물의 최대치를 담을 변수
+int result1 = 0;
+int result2 = 0;
+int result3 = 0;
+
+건물
+1. 배럭 - final static int STAR_BARRUCK = 150;
+2. 팩토리 - final static int FACTORY = 200;
+
+유닛
+1. 마린 - final static int MARINE = 50;
+2. 고스트 - final static int GHOST = 75
+3. 탱크 - final static int TANK = 150;
+-----------------------------------
+----------------------------------------
+-프로토스-
+Protoss.java
+
+//각 생산물의 최대치를 담을 변수
+int result1 = 0;
+int result2 = 0;
+int result3 = 0;
+
+건물
+1.게이트웨이 - final static int GATEWAY = 150;
+2.스타게이트 - final static int STARGATE = 200;
+
+유닛
+1.질럿 - final static int ZEALOT = 100;
+2.드라군 - final static int DRAGOON = 125;
+3.스카웃 - final static  int SCOUT = 225;
+----------------------------------------
+
+---------------------------------------------
+-워크-
+Warc.java
+
+//각 생산물의 최대치를 담을 변수
+int result1 = 0;
+int result2 = 0;
+int result3 = 0;
+
+건물
+1. 배럭 - final static int WAR_BARRUCK = 200;
+2. 크립트 - final static int CRYPT = 250;
+
+유닛
+1. 풋맨 - final static int FOOTMAN = 70;
+2. 오크 - final static int ORC = 80;
+3. 구울 - final static int GHOUL = 110;
+---------------------------------------------
