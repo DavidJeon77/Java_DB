@@ -10,10 +10,10 @@ public class StarcraftMain {
 		int mineral = 0;
 		Starcraft star = new Starcraft();
 
-		while (kind != 5) {
+		while (kind != 6) {
 
 			System.out.println("종족을 선택하세요");
-			System.out.println("1)저그,2)테란,3)프로토스,4)워크 5)종료");
+			System.out.println("1)저그,2)테란,3)프로토스,4)워크,5)호빗 6)종료");
 			kind = scan.nextInt();
 			switch (kind) {
 			case 1:
@@ -29,6 +29,9 @@ public class StarcraftMain {
 				star.setiStarcraft(new Warc());
 				break;
 			case 5:
+				star.setiStarcraft(new Hobit());
+				break;
+			case 6:
 				System.out.println("종료");
 				continue;
 			default:
