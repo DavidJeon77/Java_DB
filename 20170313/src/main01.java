@@ -10,6 +10,7 @@ public class main01 {
 									// 만약 A에도 toString()이 재정의 되지 않으면
 									// Object의 toString()을 호출 한다.
 		System.out.println(str);
+		System.out.println(b1);
 
 	}
 }
