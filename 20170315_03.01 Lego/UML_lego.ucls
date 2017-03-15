@@ -1,60 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="lego.PersonParts.Head.IHead" project="20170315_03.01 Lego" 
-    file="/20170315_03.01 Lego/src/lego/PersonParts/Head/IHead.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="511" y="90"/>    
+  <class id="1" language="java" name="lego.PersonParts.Legs.impl.Skirt" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Legs/impl/Skirt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="137" x="752" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="lego.PersonParts.Legs.impl.trousers" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Legs/impl/trousers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="137" x="929" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="lego.PersonParts.Legs.impl.Jeans" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Legs/impl/Jeans.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="137" x="575" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="lego.PersonParts.Legs.ILegs" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Legs/ILegs.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="116" x="841" y="214"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="2" language="java" name="lego.legoMain" project="20170315_03Lego" 
-    file="/20170315_03.01 Lego/src/lego/legoMain.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="101" width="125" x="41" y="37"/>    
+  <interface id="5" language="java" name="lego.PersonParts.IPerson" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/IPerson.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1129" y="605"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" language="java" name="lego.PersonParts.arms.IArm" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/arms/IArm.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="115" x="1354" y="214"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="lego.PersonParts.arms.impl.gun" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/arms/impl/gun.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="136" x="1260" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="lego.PersonParts.lego" project="20170315_03Lego" 
-    file="/20170315_03.01 Lego/src/lego/PersonParts/lego.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="99" y="267"/>    
+  <class id="8" language="java" name="lego.PersonParts.arms.impl.Stick" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/arms/impl/Stick.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="136" x="1612" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="4" language="java" name="lego.PersonParts.Body.IBody" project="20170315_03Lego" 
+  <class id="9" language="java" name="lego.PersonParts.arms.impl.Knife" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/arms/impl/Knife.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="136" x="1436" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="lego.PersonParts.Body.IBody" project="20170315_03.01 Lego" 
     file="/20170315_03.01 Lego/src/lego/PersonParts/Body/IBody.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="289" y="207"/>    
+    <position height="65" width="117" x="397" y="214"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="5" language="java" name="lego.PersonParts.arms.IArm" project="20170315_03Lego" 
-    file="/20170315_03.01 Lego/src/lego/PersonParts/arms/IArm.java" binary="false" corner="BOTTOM_LEFT">    
-    <position height="-1" width="-1" x="511" y="207"/>    
+  <class id="11" language="java" name="lego.PersonParts.Body.impl.Jacket" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Body/impl/Jacket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="138" x="397" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="lego.PersonParts.Body.impl.Dress" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Body/impl/Dress.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="138" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="lego.PersonParts.Body.impl.Padding" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Body/impl/Padding.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="138" x="219" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="lego.PersonParts.Head.IHead" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Head/IHead.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="118" x="1788" y="214"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="6" language="java" name="lego.PersonParts.Legs.ILegs" project="20170315_03Lego" 
-    file="/20170315_03.01 Lego/src/lego/PersonParts/Legs/ILegs.java" binary="false" corner="TOP_LEFT">    
-    <position height="-1" width="-1" x="291" y="90"/>    
+  <class id="15" language="java" name="lego.PersonParts.Head.impl.Cap" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Head/impl/Cap.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="139" x="1967" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
-  </interface>  
+  </class>  
+  <class id="16" language="java" name="lego.PersonParts.Head.impl.Pedora" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Head/impl/Pedora.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="139" x="2146" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="lego.PersonParts.Head.impl.NothingWear" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/Head/impl/NothingWear.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="139" x="1788" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="lego.PersonParts.lego" project="20170315_03.01 Lego" 
+    file="/20170315_03.01 Lego/src/lego/PersonParts/lego.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1124" y="889"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="19">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="22">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="23" name="legs"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <realization id="29">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="31" name="arm"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <realization id="34">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="35">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="36">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="37">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="38" name="body"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="40">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="41">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="42">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="43" name="head"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="45">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

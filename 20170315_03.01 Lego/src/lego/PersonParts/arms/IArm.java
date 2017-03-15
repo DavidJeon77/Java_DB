@@ -1,9 +1,7 @@
 package lego.PersonParts.arms;
 
-import lego.PersonParts.LegoPersonParts;
+import lego.PersonParts.IPerson;
 
-public interface IArm {
-
-	void arms(LegoPersonParts arm);
+public interface IArm extends IPerson {
 
 }

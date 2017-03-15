@@ -1,4 +1,4 @@
-package computer.cpu.impl;
+package computer.cpu;
 
 public interface ICpu {
 

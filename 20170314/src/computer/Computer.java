@@ -1,8 +1,14 @@
 package computer;
 
+import computer.cpu.ICpu;
+import computer.drive.IDrive;
+import computer.ram.IRam;
 
 public class Computer {
 
+	private ICpu cpu;
+	private IRam ram;
+	private IDrive drive;
 
 	private String process_state;
 
@@ -17,11 +23,23 @@ public class Computer {
 		state = Process.suspended_blocked;
 	}
 
+	public void assemble(ICpu cpu, IRam ram, IDrive drive) {
+		this.cpu = cpu;
+		System.out.println("CPU ÀåÂø");
+
+		this.ram = ram;
+		System.out.println("RAM ÀåÂø");
+
+		this.drive = drive;
+		System.out.println("DRIVE ÀåÂø");
+		System.out.println();
+	}
 
 	public void running() {
 
 		state = Process.running;
-		change_state_print();
+		change_state();
+		System.out.println("<state : " + process_state + ">");
 		cpu.use();
 		ram.wakeUp();
 		drive.swapIn();
@@ -31,7 +49,8 @@ public class Computer {
 	public void ready() {
 
 		state = Process.ready;
-		change_state_print();
+		change_state();
+		System.out.println("<state : " + process_state + ">");
 		cpu.unUse();
 		ram.wakeUp();
 		drive.swapIn();
@@ -41,7 +60,8 @@ public class Computer {
 	public void asleep() {
 
 		state = Process.asleep;
-		change_state_print();
+		change_state();
+		System.out.println("<state : " + process_state + ">");
 		cpu.unUse();
 		ram.sleepIn();
 		drive.swapIn();
@@ -51,24 +71,26 @@ public class Computer {
 	public void suspended_ready() {
 
 		state = Process.suspended_ready;
-		change_state_print();
+		change_state();
+		System.out.println("<state : " + process_state + ">");
 		cpu.unUse();
 		ram.wakeUp();
-		drive.swapout();
+		drive.swapDown();
 		System.out.println();
 	}
 
 	public void suspended_blocked() {
 
 		state = Process.suspended_blocked;
-		change_state_print();
+		change_state();
+		System.out.println("<state : " + process_state + ">");
 		cpu.unUse();
 		ram.sleepIn();
-		drive.swapout();
+		drive.swapDown();
 		System.out.println();
 	}
 
-	private void change_state_print() {
+	private void change_state() {
 
 		if (state == Process.running) {
 			process_state = "Running";
@@ -80,7 +102,8 @@ public class Computer {
 			process_state = "Suspended_ready";
 		} else {
 			process_state = "Suspended_blocked";
+			
 		}
-		System.out.println("<state : " + process_state + ">");
 	}
+
 }

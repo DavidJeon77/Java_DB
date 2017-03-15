@@ -6,12 +6,14 @@ public class SSD implements IDrive{
 
 	@Override
 	public void swapIn() {
-		System.out.println("SSD에서 주 기억장치로 적재");
+		System.out.println("SSD: 주 기억장치에 적재");
 	}
 
 	@Override
-	public void swapout() {
-		System.out.println("SSD에서 주 기억장치로 미적재");
+	public void swapDown() {
+		System.out.println("SSD: 주 기억장치에 미적재");
 	}
+
+
 
 }

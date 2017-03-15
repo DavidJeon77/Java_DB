@@ -6,12 +6,12 @@ public class HDD implements IDrive {
 
 	@Override
 	public void swapIn() {
-		System.out.println("HDD에서 주 기억장치로 적재");
+		System.out.println("HDD: 주 기억장치에 적재");
 	}
 
 	@Override
-	public void swapout() {
-		System.out.println("HDD에서 주 기억장치로 미적재");
+	public void swapDown() {
+		System.out.println("HDD: 주 기억장치에서 미적재");
 	}
 
 

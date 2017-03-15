@@ -1,9 +1,7 @@
 package lego.PersonParts.Head;
 
-import lego.PersonParts.LegoPersonParts;
+import lego.PersonParts.IPerson;
 
-public interface IHead {
-
-	void head(LegoPersonParts head);
+public interface IHead extends IPerson {
 
 }

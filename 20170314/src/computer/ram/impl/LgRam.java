@@ -7,12 +7,15 @@ public class LgRam implements IRam{
 
 	@Override
 	public void wakeUp() {
-		System.out.println("LGRAM으로부터 자원 할당");		
+		// TODO Auto-generated method stub
+		System.out.println("LGRAM에 적재");		
 	}
 
 	@Override
 	public void sleepIn() {
-		System.out.println("LGRam으로부터 자원 미할당");
+		// TODO Auto-generated method stub
+		System.out.println("LGRam에서 미적재");
+		
 	}
 
 }

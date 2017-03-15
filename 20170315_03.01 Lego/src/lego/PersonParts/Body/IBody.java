@@ -1,8 +1,7 @@
 package lego.PersonParts.Body;
 
-import lego.PersonParts.LegoPersonParts;
+import lego.PersonParts.IPerson;
 
-public interface IBody {
-	void body(LegoPersonParts body);
+public interface IBody extends IPerson {
 
 }
