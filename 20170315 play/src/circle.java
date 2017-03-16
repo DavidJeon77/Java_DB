@@ -8,18 +8,13 @@
  */
 
 public class circle {
+	String name;
 
 	public static void main(String[] args) {
 
-		// 1)ตฅภฬลอ
-		double r;
-		double rArea;
-		double circleLength;
-		
+		circle cat = new circle();
+		System.out.println(cat.name);
 
 	}
-	
-	
-	
 
 }
