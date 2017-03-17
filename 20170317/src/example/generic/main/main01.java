@@ -1,8 +1,8 @@
 package example.generic.main;
 
-import example.generic.classes.Apple;
-import example.generic.classes.FruitBox;
-import example.generic.classes.Orenge;
+import example.generic.classes.generic.Apple;
+import example.generic.classes.generic.FruitBox;
+import example.generic.classes.generic.Orenge;
 
 public class main01 {
 
