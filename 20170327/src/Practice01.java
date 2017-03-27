@@ -13,8 +13,11 @@ public class Practice01 {
 		File file = new File("log.txt");
 		Scanner scanner = new Scanner(System.in);
 
-		
-		if (file.exists()) {
+		if (!file.exists()) {
+			file.createNewFile();
+
+		} else {
+			// 파일 리드
 			FileReader in = new FileReader(file);
 			BufferedReader br = new BufferedReader(in);
 
@@ -23,35 +26,26 @@ public class Practice01 {
 			while ((line = br.readLine()) != null) {
 				System.out.println(line);
 			}
-			FileWriter out = new FileWriter(file, true);
-			BufferedWriter bw = new BufferedWriter(out);
+			System.out.println("-------------이전 파일 내용-------------");
 
-			String text = scanner.nextLine();
-
-			if (text.equals("exit")) {
-				return;
-			} else {
-				bw.write(text + "\n");
-			}
 			br.close();
-			bw.close();
-
-		} else {
-			FileWriter out = new FileWriter(file, true);
-
-			BufferedWriter bw = new BufferedWriter(out);
-
-			String text = scanner.nextLine();
-
-			if (text.equals("exit")) {
-				return;
-			} else {
-				bw.write(text + "\n");
-			}
-			bw.close();
 
 		}
+		// 파일 라이트
+		FileWriter out = new FileWriter(file, true);
+		BufferedWriter bw = new BufferedWriter(out);
 
+		boolean condi = true;
+
+		while (condi) {
+			System.out.print(">> ");
+			String text = scanner.nextLine();
+			if (text.toLowerCase().equals("exit")) {
+				condi = false;
+			} else {
+				bw.write(text + "\n");
+			}
+		}
+		bw.close();
 	}
-
 }

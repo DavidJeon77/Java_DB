@@ -27,9 +27,9 @@ public class main01 {
 		Writer out = new FileWriter(file, true);
 		
 		out.write("ABCDE\n");
-		out.write("Hello byebye");
-		out.write("Hello byebe");
-		out.write("Hello bybye");
+		out.write("Hello byebye\n");
+		out.write("Hello byebe\n");
+		out.write("Hello bybye\n");
 		
 		// 목적지와 무엇을 한건지 설정이 완료되면 바로 닫아 준다.
 		out.close();
